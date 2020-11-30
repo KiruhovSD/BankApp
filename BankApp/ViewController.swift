@@ -18,7 +18,13 @@ class ViewController: UIViewController {
     }
     
     func updateAmountLabel() {
-        amauntLabel?.text = "\(amount)"
+        let formatter = NumberFormatter()
+        formatter.numberStyle = .currency
+        formatter.currencySymbol = "₽"
+        
+        let number = NSNumber(value: amount)
+        
+        amauntLabel?.text = formatter.string(from: number)
     }
     
     override func viewDidLoad() {
