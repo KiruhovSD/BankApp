@@ -39,6 +39,9 @@
                             <constraint firstItem="pIU-Ef-YXW" firstAttribute="centerX" secondItem="LOH-Ng-fsN" secondAttribute="centerX" id="tla-VX-EUA"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="amauntLabel" destination="pIU-Ef-YXW" id="8Um-He-5pe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
