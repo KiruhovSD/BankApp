@@ -59,7 +59,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="tEc-6e-teq">
                                 <rect key="frame" x="16" y="64" width="358" height="309.33333333333331"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="годовая ставка" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OxC-FN-NQi">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Годовая ставка" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OxC-FN-NQi">
                                         <rect key="frame" x="0.0" y="0.0" width="358" height="45.666666666666664"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
@@ -110,6 +110,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Loan" image="creditcard.circle" catalog="system" id="Tkd-6V-gzC"/>
                     <connections>
+                        <outlet property="monthlyPaymentLabel" destination="g6T-hO-825" id="fUh-Lv-mS3"/>
                         <outlet property="nperTextField" destination="gSL-GV-UeM" id="GX0-b8-RDo"/>
                         <outlet property="pvTextField" destination="iHn-jr-Yrk" id="4bb-vT-mPB"/>
                         <outlet property="rateTextField" destination="OxC-FN-NQi" id="xsl-IS-s6e"/>

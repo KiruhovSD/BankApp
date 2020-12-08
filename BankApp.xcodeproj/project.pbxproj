@@ -13,6 +13,7 @@
 		ED3EDABC256FD6950027F572 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED3EDABA256FD6950027F572 /* Main.storyboard */; };
 		ED3EDABE256FD6A90027F572 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED3EDABD256FD6A90027F572 /* Assets.xcassets */; };
 		ED3EDAC1256FD6A90027F572 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED3EDABF256FD6A90027F572 /* LaunchScreen.storyboard */; };
+		EDC918A3257F7C8500B0DBD6 /* ExcelFormulas.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC918A2257F7C8500B0DBD6 /* ExcelFormulas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		ED3EDABD256FD6A90027F572 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED3EDAC0256FD6A90027F572 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED3EDAC2256FD6A90027F572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDC918A2257F7C8500B0DBD6 /* ExcelFormulas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcelFormulas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				ED3EDAB4256FD6950027F572 /* AppDelegate.swift */,
+				ED3EDABD256FD6A90027F572 /* Assets.xcassets */,
+				EDC918A2257F7C8500B0DBD6 /* ExcelFormulas.swift */,
+				ED3EDAC2256FD6A90027F572 /* Info.plist */,
+				ED3EDABF256FD6A90027F572 /* LaunchScreen.storyboard */,
+				ED3EDABA256FD6950027F572 /* Main.storyboard */,
 				ED3EDAB6256FD6950027F572 /* SceneDelegate.swift */,
 				ED3EDAB8256FD6950027F572 /* ViewController.swift */,
-				ED3EDABA256FD6950027F572 /* Main.storyboard */,
-				ED3EDABD256FD6A90027F572 /* Assets.xcassets */,
-				ED3EDABF256FD6A90027F572 /* LaunchScreen.storyboard */,
-				ED3EDAC2256FD6A90027F572 /* Info.plist */,
 			);
 			path = BankApp;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDC918A3257F7C8500B0DBD6 /* ExcelFormulas.swift in Sources */,
 				ED3EDAB9256FD6950027F572 /* ViewController.swift in Sources */,
 				ED3EDAB5256FD6950027F572 /* AppDelegate.swift in Sources */,
 				ED3EDAB7256FD6950027F572 /* SceneDelegate.swift in Sources */,
