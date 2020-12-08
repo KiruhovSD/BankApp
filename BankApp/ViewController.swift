@@ -29,13 +29,8 @@ class ViewController: UIViewController {
     }
     
     func updateAmountLabel() {
-        let formatter = NumberFormatter()
-        formatter.numberStyle = .currency
-        formatter.currencySymbol = "₽"
         
-        let number = NSNumber(value: amount)
-        
-        amauntLabel?.text = formatter.string(from: number)
+        amauntLabel?.text = amount.asCurrency()
     }
     func updateMonthlyAmountLabel(){
         monthlyPaymentLabel?.text = nil
@@ -45,7 +40,7 @@ class ViewController: UIViewController {
         guard let rate = Double(rateTextField?.text ?? "") else { return }
         
         let monthlyPayment = abs(ExcelFormulas.pmt(rate: rate / 100 / 12, nper: nper, pv: pv))
-        monthlyPaymentLabel?.text = "\(monthlyPayment)"
+        monthlyPaymentLabel?.text = monthlyPayment.asCurrency()
     }
     
     override func viewDidLoad() {
